@@ -97,6 +97,9 @@
     .mini-spot{
         width: unset;
     }
+    .text-content{
+        height: unset;
+    }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
     .spot-images{
