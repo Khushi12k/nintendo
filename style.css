@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+.banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url("images/images/images/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.black{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.484);
+    color:white;
+    display: flex;
+    align-items: center;
+}
+input{
+    border-radius: 4px;
+    padding: 6px;
+    border: none;
+    width: 40%;
+}
+button{
+    background-color: red;
+    border-radius: 4px;
+    color:white;
+    padding: 6px;
+    border: none;
+}
+.banner-text{
+    width: 50%;
+    text-transform: capitalize;
+    margin: auto;
+    text-align: center;  
+}
+.banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+.banner-text p{
+    padding: 10px;
+}
+.banner-text h2{
+    padding: 10px;
+    font-weight: 500;
+}
+.game-head h2{
+    text-align: center;
+    font-size: 24px;
+}
+.game-content{
+    padding: 4rem 0px;
+}
+.game-minibox{
+    width: 30%;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.039);
+
+}
+.game-minibox p{
+color:grey;
+padding: 10px 0px;
+font-size: 14px;
+
+}
+.game-minibox i{
+    color: red;
+    font-size: 30px;
+}
+.main-game-minibox{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top:3rem;
+}
+.game-to-game-head{
+ width: 50%;
+ margin: auto;
+}
+.game-to-game-head h2{
+    text-align: center;
+    font-size: 24px;
+}
+.game-to-game-head p{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    padding: 1rem 0;
+    
+}
+table{
+    width: 80%;
+     margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+table thead{
+    background-color: black;
+    color:white;
+}
+thead th{
+    font-weight: 300;
+}
+table td{
+    padding: 6px;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 300;
+   border-bottom: 1px solid grey;
+}
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.24);
+}
+ 
+.game-to-game-content{
+    padding: 4rem 0px;
+}
+.set-head h2{
+    text-align: center;
+    font-size: 24px;
+}
+.mini-setbox{
+    width: 30%;
+    height: 300px;
+    text-align: center;
+}
+.mini-setbox p{
+    font-size: 14px;
+    padding: 1rem 0;
+}
+.set-image{
+    width:200px;
+    height: 200px;
+    margin: auto;
+}
+.set-image img{
+    width: 100%;
+    height: 100%;
+}
+.parent-set{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sets-content{
+    padding: 3rem 0px;
+}
+.title-head h2{
+    text-align: center;
+    font-size: 24px;
+}
+.mini-title{
+    width: 22%;
+}
+.mini-title p{
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.title-image{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.114);
+    overflow: hidden;
+}
+.title-image img{
+    width: 100%;
+    height: 180px;
+    
+}
+.gameTitle-content{
+    padding: 4rem 0 0 2rem;
+}
+
+.mini-title .title-image img:hover{
+    transform: scale(1.1);
+}
+.parent-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:2rem 0;
+}
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+.spot-head{
+text-align: center;
+font-size: 18px;
+font-family: "poppins";
+}
+.spot-content{
+    padding: 3rem 0;
+}
+.mini-spot{
+    width: 28%;
+    /* height: 400px; */
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.215);
+    padding: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+.spot-images{
+    width: 354px;
+     height: 200px;
+     overflow: hidden;
+}
+.mini-spot .spot-images img:hover{
+    transform:scale(1.1) ;
+}
+.spot-images img{
+    width: 100%;
+    border-radius: 10px;
+}
+.mini-spot h3{
+    font-size: 16px;
+    padding: 20px;
+}
+.mini-spot p{
+    font-size: 14px;
+    padding: 14px;
+
+}
+ .spot-btn{
+margin: 20px;
+ }
+.spot-btn a{
+text-decoration: none;
+background-color: red;
+color:white;
+padding: 4px 8px;
+border-radius: 8px;
+}
+.parent-spot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+.last-content{
+    background-color: rgba(255, 127, 80, 0.258);
+    width: 100%;
+    
+}
+.last-image{
+    width: 300px;
+    /* height: 200px; */
+    
+}
+.last-image img{
+    width: 100%;
+    
+}
+.text-content{
+    width: 400px;
+    color: red;
+    text-align: center;
+     height: 300px;
+}
+.last-btn{
+    margin: 20px;
+}
+.last-btn a{
+    background-color: red;
+    color:white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.parent-last{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.last-content{
+    padding: 3rem 0 0 0;
+} 

@@ -1,0 +1,67 @@
+@media screen and (min-width:320px) and (max-width:570px){
+    .banner{
+        width: 100%;
+        height: unset;
+    }
+    .banner-text{
+        width: unset;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .black{
+        width: 100%;
+        height: unset;
+    }
+    .game-head h2{
+        text-align: center; 
+    }
+    .main-game-minibox{
+        flex-direction: column;
+    }
+    .game-minibox{
+        width: 100%;
+    }
+    .game-to-game-head{
+        width: 100%;
+    }
+    table{
+        width: 100%;
+    }
+    .parent-set{
+        flex-direction: column;
+    }
+    .mini-setbox {
+        width: 100%;
+    }
+    .title-head h2 {
+        text-align: center;
+    }
+    .parent-title{
+        flex-direction: column;
+    }
+    .mini-title {
+        width: 100%;
+    }
+    .parent-spot{
+        flex-direction: column;
+    }
+    .mini-spot {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .parent-last{
+        flex-direction: column;
+    }
+    .mini-spot{
+        width: 71%;
+    }
+    .title-image{
+        width: 95%;
+    }
+    .spot-images{
+        width: 250px;
+    }
+    .spot-images img{
+        width: 100%;
+    }
+}
