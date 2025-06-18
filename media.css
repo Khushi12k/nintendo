@@ -59,7 +59,7 @@
         width: 95%;
     }
     .spot-images{
-        width: 250px;
+        width: unset;
     }
     .spot-images img{
         width: 100%;
