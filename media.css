@@ -64,4 +64,7 @@
     .spot-images img{
         width: 100%;
     }
+    .text-content {
+        width: unset;
+    }
 }
